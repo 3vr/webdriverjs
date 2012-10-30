@@ -37,6 +37,9 @@ Then run this with nodejs:
 		.getTitle(function(title) { console.log(title) })
 		.getElementCssProperty("id", "header", "color", function(result){ console.log(result);  })
 		.end();
+### Teamcity logging
+
+To convert output to teamcity style service messages add '-s teamcity' to run command.
 
 ### Submitting a form
 
